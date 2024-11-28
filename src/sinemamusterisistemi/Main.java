@@ -10,9 +10,9 @@ public class Main {
 
         // Örnek filmler ve salonlar
         ArrayList<Film> filmler = new ArrayList<>();
-        filmler.add(new Film("Inception", 148, "Bilim Kurgu", 8.8));
-        filmler.add(new Film("Titanic", 195, "Dram", 7.8));
-        filmler.add(new Film("The Dark Knight", 152, "Aksiyon", 9.0));
+        filmler.add(new Film("The Green Mile", 189, "Dram,Suç", 8.5));
+        filmler.add(new Film("Matrix", 216, "Aksiyon", 8.8));
+        filmler.add(new Film("Soul", 100, "Animasyon", 8.0));
 
         ArrayList<Salon> salonlar = new ArrayList<>();
         salonlar.add(new Salon("Salon 1", filmler.get(0)));
